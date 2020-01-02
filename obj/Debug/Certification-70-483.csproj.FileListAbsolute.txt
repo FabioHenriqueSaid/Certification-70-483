@@ -1,0 +1,6 @@
+C:\Users\fabio\source\projetos\Certification-70-483\Certification-70-483\bin\Debug\Certification-70-483.exe.config
+C:\Users\fabio\source\projetos\Certification-70-483\Certification-70-483\bin\Debug\Certification-70-483.exe
+C:\Users\fabio\source\projetos\Certification-70-483\Certification-70-483\bin\Debug\Certification-70-483.pdb
+C:\Users\fabio\source\projetos\Certification-70-483\Certification-70-483\obj\Debug\Certification-70-483.csprojAssemblyReference.cache
+C:\Users\fabio\source\projetos\Certification-70-483\Certification-70-483\obj\Debug\Certification-70-483.exe
+C:\Users\fabio\source\projetos\Certification-70-483\Certification-70-483\obj\Debug\Certification-70-483.pdb
