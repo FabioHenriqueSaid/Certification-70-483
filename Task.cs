@@ -6,6 +6,8 @@
 
 using System.Threading;
 using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace CAP1
 {
@@ -41,6 +43,25 @@ namespace CAP1
         private static void Time()
         {
             Thread.Sleep(10);
+        }
+
+        /* 
+         * Caso queria substituir os for usados nos metodos a cima
+         * Você também consegue um tempo de execucao maior caso use os metodos a baixo.
+         */
+        public void ParallelFor()
+        {
+            Parallel.For(0, 300, (i) =>
+            {
+            });
+        }
+
+        public void ParallelForEach()
+        {
+            var lista = Enumerable.Range(0, 300);
+            Parallel.ForEach(lista, (item) =>
+            {
+            });
         }
     }
 }
