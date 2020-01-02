@@ -63,5 +63,15 @@ namespace CAP1
             {
             });
         }
+
+        public void ParallelLoopState() {
+            Parallel.For(0, 300, (int i, ParallelLoopState state) =>
+            {
+                if (i == 10) {
+                    Console.WriteLine("O loop foi parado na posiçao {0}",i);
+                    state.Stop();
+                }
+            });
+        }
     }
 }
