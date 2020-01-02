@@ -64,6 +64,7 @@ namespace CAP1
             });
         }
 
+        //Para a execução 
         public void ParallelLoopState() {
             Parallel.For(0, 300, (int i, ParallelLoopState state) =>
             {
