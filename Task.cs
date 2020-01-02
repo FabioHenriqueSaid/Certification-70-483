@@ -74,5 +74,18 @@ namespace CAP1
                 }
             });
         }
+
+        //Verifica se o loop foi completado
+        public void Completado() {
+           ParallelLoopResult result =  Parallel.For(0, 300, (int i, ParallelLoopState state) =>
+            {
+                if (i == 10)
+                {
+                    Console.WriteLine("O loop foi parado na posiçao {0}", i);
+                    state.Stop();
+                }
+            });
+            Console.WriteLine("O loop foi completado ? {0} ", result.IsCompleted);
+        }
     }
 }
