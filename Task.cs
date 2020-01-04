@@ -82,9 +82,10 @@ namespace CAP1
                 if (i == 10)
                 {
                     Console.WriteLine("O loop foi parado na posiçao {0}", i);
-                    state.Stop();
+                    state.Break();
                 }
             });
+            Console.WriteLine("Maior valor executado {0} ", result.LowestBreakIteration);
             Console.WriteLine("O loop foi completado ? {0} ", result.IsCompleted);
         }
     }
